@@ -20,11 +20,11 @@ Ejercicio:
 
 num = int(input("Ingresa un numero: "))
 
-lista = list(range(1,num+1))
-
 while num < 0:
     print("Error. Ingresa un numero mayor a cero")
     num = int(input("Ingresa un numero: "))
+
+lista = list(range(1,num+1))
 
 for i in range(0,num):
     lista[i] = int(input())
